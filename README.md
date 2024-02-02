@@ -1,10 +1,5 @@
 # ServoClock
 
-https://seanosullivan.dev/projects/clock/
-
-
-**Mechanical 7-Segment Display Clock**
-
 I created this clock for our school canteen. The time is indicated by the servo-arm positions.
 
 
