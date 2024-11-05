@@ -61,6 +61,8 @@ void setup() {
     Serial.println("Couldn't find RTC");
     while (1);
   }
+  //for when it gets out of sync, quickly reset the time
+rtc.adjust(DateTime(F(__DATE__), F(__TIME__)));
 
   // Initialize the PWM servo drivers
   pwmH.begin();
